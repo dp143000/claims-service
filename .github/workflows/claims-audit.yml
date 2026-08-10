@@ -4,7 +4,7 @@ on:
 jobs:
   deploy-with-evidence:
     runs-on: self-hosted
-    environment: production
+    environment: dev
     steps:
       - uses: actions/checkout@v4
       - name: Generate audit record
